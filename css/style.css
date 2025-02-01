@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  background-color: #0e0e29;
+  color: white;
+  font-family: '', Times, serif;
+
+}
+
+nav {
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(27, 27, 102);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  /* color: white; */
+}
+
+nav ul  a {
+  text-decoration: none;
+  color: white;
+
+  margin: 0 23px;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.2rem;
+  
+
+}
+
+.left {
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 140px 10px 0;
+  text-align: left;
+  
+}
+
+.rightsection img {
+  border-radius: 50%;
+  height: 20em;
+  /* border: 5px red blue; */
+  margin: -30px 0 0px;
+
+
+}
+
+.leftsection {
+  /* background-color: red; */
+  /* width: px; */
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+
+  /* font-size: 70px; */
+  color: rgb(255, 255, 255);
+  margin: 0.em 0 0px 0;
+  position: none;
+  animation: text 0s 1;
+
+
+
+}
+
+.purple {
+  color: blueviolet;
+}
+
+.secoundsection {
+  max-width: 80em;
+  margin: 130px 0px 40px 0;
+  font-weight: bold;
+  height: 80vh;
+}
+.secoundsection .box {
+ 
+  height: 3px;
+  background: white;
+  border: 0px;
+  margin: 20px 40px 40px 50px;
+  display:flex;
+
+
+
+}
+
+.secoundsection h1 {
+  font-size: 1.9rem;
+  margin: 0px 10px 40px 50px;
+}
+.secoundsection  .verticle {
+  height: 93px;
+  width: 1px;
+  background-color: blueviolet;
+  margin: 0px 99px;
+}
+.image-top{
+  width: 30px;
+  position: relative;
+top: -32px;
+left: -9px;
+
+}
+.verticle-title{
+  position: relative;
+  width: 140px;
+  top: 65px;
+  font-size: 15px;
+
+}
+.verticle-desc {
+  font-size: 11px;
+  position:relative;
+  color: grey;
+  top: 80px;
+  width: 150px;
+text-align:left;
+
+}
+.text-grey {
+  color: grey;
+  margin: 50px;
+
+}
+
+main hr {
+
+  height: 3px;
+  background: #7b1ec7;
+  border: 0px;
+  margin: 30px;
+  align-content:center ;
+}
+.bx {
+  font-family: boxicons !important;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+user agent stylesheet
+i {
+  font-style: italic;
+}
